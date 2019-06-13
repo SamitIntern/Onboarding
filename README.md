@@ -1,0 +1,3 @@
+ This repository contains three files. One of them being a Dockerfile (also named as Dockerfile) that has the needed configurations for creating a Docker container. The second one, app.py is a simple application on python. The third file is requirements.txt file and this has a couple of external utilities that the app.py needs.
+ To create the docker image, use the command "docker build --tag=friendlyhello" and you can see a new image by the name of "friendlyhello" when you do a "docker image ls".
+To run the app do a "docker run -p 4000:80 friendlyhello". Now check the app running on localhost:4000 on your machine.
